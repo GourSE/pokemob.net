@@ -49,8 +49,6 @@ if ($link == "" or $name == "") {
         }
         else
         {
-            unset($_POST);
-            header("Location: http://pokemob.net");
             $website_true = true;
         }
     }
