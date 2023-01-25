@@ -521,41 +521,28 @@
                                 <a href="javascript:void(0)"><i class="ti-eye"></i> 123</a> -->
                             </div>
                             <h5 class="card-title">Website established.</h5>
-                            <p>Website is now up and running. Horray!</p>
+                            <p>Website is now up and running as you can see. Horray!</p>
                             <a href="#" class="d-block mt-3">Visit...</a>
                         </div>
                     </div>
                 </div>
 
 
-                <!-- <div class="col-md-4">
+                <div class="col-md-4">
                     <div class="card blog-post my-4 my-sm-5 my-md-0">
                         <img src="/assets/imgs/big-logo-square.jpeg" alt="blog">
                         <div class="card-body">
                             <div class="details mb-3">
-                                <a href="javascript:void(0)"><i class="ti-comments"></i> 434</a>
-                                <a href="javascript:void(0)"><i class="ti-eye"></i> 987</a>
+                                <p>2023/1/25</p>
                             </div>
-                            <h5 class="card-title">Repudiandae laudantium</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
-                            <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
+                            <h5 class="card-title">Shorten your link</h5>
+                            <p>Convert your loong link into something memorizable.</p>
+                            <a href="/link" class="d-block mt-3">Try out</a>
                         </div>
                     </div>
-                </div> -->
-                <!-- <div class="col-md-4">
-                    <div class="card blog-post my-4 my-sm-5 my-md-0">
-                        <img src="/assets/imgs/big-logo-square.jpeg" alt="blog">
-                        <div class="card-body">
-                            <div class="details mb-3">
-                                <a href="javascript:void(0)"><i class="ti-comments"></i> 164</a>
-                                <a href="javascript:void(0)"><i class="ti-eye"></i> 425</a>
-                            </div>
-                            <h5 class="card-title">Laboriosam asperiores</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae laudantium dolor nisi obcaecati, non laboriosam asperiores doloremque tempora repellendus iure!</p>
-                            <a href="javascript:void(0)" class="d-block mt-3">Read More...</a>
-                        </div>
-                    </div>
-                </div> -->
+                </div>
+
+
             </div>
         </div>
     </section>
