@@ -2,35 +2,20 @@ AddDefaultCharset UTF-8
 AddCharset UTF-8 .js .css
 
 RewriteEngine on
+Options -Indexes 
 
-# RewriteCond %{HTTP:Accept-Language} ^zh [NC]
-# RewriteRule ^$ /zh/ [L,R=302]
-
-# # else redirect to the English version
-# RewriteRule ^$ /en/ [L,R=302]
-
-# RewriteCond %{HTTP:Accept-Language} ^zh [NC]
-# RewriteRule ^$ /zh/?$ [NC]
-
-# # else redirect to the English version
-# RewriteRule ^$ /en/?$ [NC]
-# # RewriteBase /en
-AddLanguage en .en
 AddLanguage zh .zh
+AddLanguage en .en
 
-LanguagePriority zh
-ForceLanguagePriority Prefer
+# LanguagePriority en
+# ForceLanguagePriority Prefer
 
 LanguagePriority en zh
 ForceLanguagePriority Fallback
 
-
-# RewriteRule ^link/?$ https://link.pokemob.net [NC]
-
-
-
-
 ErrorDocument 401 /error/401.html
 ErrorDocument 403 /error/403.html
 ErrorDocument 404 /error/404.html
+# ErrorDocument 418 /error/418.html
+RewriteRule ^teapot/?$ /error/418.html [NC]
 ErrorDocument 500 /error/500.html
