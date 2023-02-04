@@ -1,8 +1,9 @@
-Personal website using template designed by Devcrud.com 
-
-Product Page: https://pokemob.net
+source of (pokemob.net)
+links.txt will be needed in /sub/link/
 
 Credits:
+	Template:
+		Devcurd:			(devcurd.com)
 
     Demo Images:
         Unsplash:       	(https://www.unsplash.com)
