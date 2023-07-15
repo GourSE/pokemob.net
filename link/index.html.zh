@@ -34,7 +34,7 @@
                         <input id="link" name="link" class="form-control form-control-lg mt-3" type="text" placeholder="過長的網址">
                     </div>
                     <div class="form-row justify-content-center">
-                        <h3 class="section-title mt-4"> <i class="ti-arrow-right"></i>&nbsp; pokemob.net/&nbsp;</h3>
+                        <h3 class="section-title mt-4"> <i class="ti-arrow-right"></i>&nbsp; link.pokemob.net/&nbsp;</h3>
                         <input id="name" name="name" class="form-control-lg mt-3" type="text" placeholder="自定的網址">
                     </div>
                     <button type="submit" id="submit-new-url" class="btn btn-primary btn-block btn-lg mt-3">送出</button>
