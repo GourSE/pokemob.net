@@ -4,7 +4,7 @@ window.onload = function() {
     const
     okP = urlParams.get("ok"),
     errorP = urlParams.get("error"),
-    shortP = urlParams.get("short");
+    shortP = urlParams.get("short"),
     linkP = urlParams.get("link");
 
     urlBase = "link.pokemob.net";
