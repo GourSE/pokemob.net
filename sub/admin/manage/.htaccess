@@ -1,5 +1,3 @@
-Options +Indexes
-
 AuthType Basic
 AuthName "Login"
 Require user pokemob

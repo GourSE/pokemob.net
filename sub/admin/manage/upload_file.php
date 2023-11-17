@@ -15,9 +15,9 @@
         </a>
     </section>
 
-
 <?php
 $fileCnt = count( $_FILES["uploadFile"]["name"] );
+$fileNme = "NULL";
 for( $i = 0; $i < $fileCnt; $i++ )
 {
     $errorCode = $_FILES['uploadFile']['error'][$i];
@@ -28,33 +28,32 @@ for( $i = 0; $i < $fileCnt; $i++ )
         echo "<p class='log_text'>File Type: " . $_FILES["uploadFile"]["type"][$i] . "<br></p>";
         echo "<p class='log_text'>File Size: " . $_FILES["uploadFile"]["size"][$i] . "<br></p>";
         $fileNme = $_FILES["uploadFile"]["name"][$i];
-        $dest = "".$_FILES["uploadFile"]["name"][$i];
+        $dest = "../files/".$_FILES["uploadFile"]["name"][$i];
         
         if (copy( $_FILES["uploadFile"]["tmp_name"][$i], $dest )){
             if ($fileCnt == 1) {
                 unset($_POST);
-                header("Location: http://admin.pokemob.net?ok=true" . "&file=". $fileNme . "&cnt=". $fileCnt);
+                header("Location: http://admin.pokemob.net/manage?error=" . $errorCode . "&file=". $fileNme . "&cnt=". $fileCnt);
                 die();
             } elseif ($i == $fileCnt -1) {
                 unset($_POST);
-                header("Location: http://admin.pokemob.net?ok=true" . "&file=". $fileNme . "&cnt=". $fileCnt);
+                header("Location: http://admin.pokemob.net/manage?error=" . $errorCode . "&file=". $fileNme . "&cnt=". $fileCnt);
                 die();
             }
         } else{
             unset($_POST);
-            header("Location: http://admin.pokemob.net?ok=false&error=" . $errorCode . "&file=". $fileNme);
+            header("Location: http://admin.pokemob.net/manage?error=" . $errorCode . "&file=". $fileNme . "&cnt=". $fileCnt);
             die();
         }
-    }
-    else if( $_FILES["uploadFile"]["error"][$i] <> 4 )
+    } else if( $_FILES["uploadFile"]["error"][$i] <> 4 )
         unset($_POST);
-        header("Location: http://admin.pokemob.net?ok=false&error=" . $errorCode . "&file=". $fileNme);
-        die();
+        header("Location: http://admin.pokemob.net/manage?error=" . $errorCode . "&file=". $fileNme . "&cnt=". $fileCnt);
+	die();
 }
 ?>
 
 <a class="important_link" href="/">返回</a>
-<a class="important_link" href="">dsds</a>
+<a class="important_link" href="/manage">files</a>
 
 </body>
 </html>
