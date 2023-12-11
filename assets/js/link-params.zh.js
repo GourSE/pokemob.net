@@ -7,7 +7,7 @@ window.onload = function() {
     shortP = urlParams.get("short"),
     linkP = urlParams.get("link");
 
-    urlBase = "link.pokemob.net";
+    urlBase = "l.pokemob.net";
     fullNewUrl = urlBase + "/" + shortP;
 
 
