@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="讚頌我們的天主">
     <meta name="author" content="Pokemob">
-    <title>玫瑰經</title>
+    <title>Rosary</title>
 
     <!-- font icons -->
     <link rel="stylesheet" href="/assets/vendors/themify-icons/css/themify-icons.css">
@@ -20,15 +20,15 @@
 <body id="head">
     <header class="header">
         <div class="overlay">
-            <h1 class="title">玫瑰經</h1>
+            <h1 class="title">Rosary</h1>
             <div class="py-3"></div>
             <h1 class="subtitle" id="pageSubtitle"></h1>
             <div class="py-3"></div>
             <div class="container text-center">
-                <a href="#mir" onclick="joy()" class="btn btn-outline-light rounded w-lg btn-lg my-1">歡喜五端</a>
-                <a href="#mir" onclick="lumi()" class="btn btn-outline-light rounded w-lg btn-lg my-1">光明五端</a>
-                <a href="#mir" onclick="sorr()" class="btn btn-outline-light rounded w-lg btn-lg my-1">痛苦五端</a>
-                <a href="#mir" onclick="glor()" class="btn btn-outline-light rounded w-lg btn-lg my-1">榮福五端</a>
+                <a href="#mys" onclick="joy()" class="btn btn-outline-light rounded w-lg btn-lg my-1">Joyful Mysteries</a>
+                <a href="#mys" onclick="lumi()" class="btn btn-outline-light rounded w-lg btn-lg my-1">Luminous Mysteries</a>
+                <a href="#mys" onclick="sorr()" class="btn btn-outline-light rounded w-lg btn-lg my-1">Sorrowful Mysteries</a>
+                <a href="#mys" onclick="glor()" class="btn btn-outline-light rounded w-lg btn-lg my-1">Glorious Mysteries</a>
             </div>
         </div>
         
@@ -47,13 +47,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto"> 
                     <li class="nav-item">
-                        <a href="#soc" class="nav-link">聖號</a>
+                        <a href="#soc" class="nav-link">Sign of Cross</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#mir" class="nav-link">玫瑰經的奧蹟</a>
+                        <a href="#mys" class="nav-link">Mysteries</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#hhq" class="nav-link">又聖母經</a>
+                        <a href="#hhq" class="nav-link">Hail Glory Queen</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a href="../" class="nav-link btn btn-outline-primary btn-sm ml-lg-3">返回</a>
@@ -133,7 +133,7 @@
         </div>
     </section>
 
-    <section id="mir" class="has-bg-img bg-img-mary">
+    <section id="mys" class="has-bg-img bg-img-mary">
         <div class="container">
             <p class="subtitle text-center h3" id="mysTit">玫瑰經的奧蹟</p>
 
