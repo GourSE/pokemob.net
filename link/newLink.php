@@ -12,6 +12,7 @@
 <body>
 
 <?php
+// phpinfo();
 // link and name must come in without spaces
 
 $link = $_POST['link'];
