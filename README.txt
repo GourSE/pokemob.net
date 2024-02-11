@@ -6,13 +6,13 @@ Credits:
 		larsjung:			(https://larsjung.de/h5ai/)
 
 	Template:
-		Devcurd:			(devcurd.com)
+		Devcurd:			(https://devcurd.com)
 
-    Demo Images:
-        Unsplash:       	(https://www.unsplash.com)
+	Demo Images:
+		Unsplash:			(https://www.unsplash.com)
 
-    Icons:
-		Themify Icons: 		(https://themify.me/themify-icons)
+	Icons:
+		Themify Icons:		(https://themify.me/themify-icons)
 
 	Other:
 		JQuery: 			(https://www.jquery.com)
