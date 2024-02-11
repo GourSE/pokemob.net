@@ -2,4 +2,6 @@
 !.gitignore
 !.htaccess
 !direct
-
+!error
+!assets
+!README.md

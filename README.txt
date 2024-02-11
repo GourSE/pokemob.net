@@ -2,6 +2,9 @@ source of (pokemob.net)
 links.txt will be needed in /sub/link/
 
 Credits:
+	H5AI:
+		larsjung:			(https://larsjung.de/h5ai/)
+
 	Template:
 		Devcurd:			(devcurd.com)
 
