@@ -1,4 +1,4 @@
-source of (pokemob.net)
+source of (https://pokemob.net)
 links.txt will be needed in /sub/link/
 
 Credits:
@@ -12,9 +12,9 @@ Credits:
 		Unsplash:			(https://www.unsplash.com)
 
 	Icons:
-		Themify Icons:		(https://themify.me/themify-icons)
+		Themify Icons:			(https://themify.me/themify-icons)
 
 	Other:
 		JQuery: 			(https://www.jquery.com)
 		Bootstrap: 			(https://www.getbootstrap.com) 
-		animate.css:		(http://daneden.me/animate) 
+		animate.css:			(http://daneden.me/animate) 
