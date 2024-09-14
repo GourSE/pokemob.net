@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Oh Pokemob">
+    <meta name="description" content="Daily Quest!">
     <meta name="author" content="Pokemob">
-    <title>Pokemob Costum Link</title>
+    <title>Pokemob Quest!!</title>
 
     <!-- font icons -->
     <link rel="stylesheet" href="/assets/vendors/themify-icons/css/themify-icons.css">
@@ -21,33 +21,18 @@
     <!-- Page Header -->
     <header class="header"> 
         <div class="overlay">
-            <h6 class="title">Pokemob</h6>
-            <h6 class="subtitle">Costum Link</h6>
-            <!-- <div class="row">
-                <span class="badge badge-pill badge-success m-1">usable</span>
-                <span class="badge badge-pill badge-primary m-1">pre-release</span>
-            </div> -->
-
-            <div class="form">
-                <form name="newLink" action="newLink.php" method="post">
-                    <div class="form-row justify-content-center mt-lg-5">
-                        <input id="link" name="link" class="form-control form-control-lg mt-3" type="text" placeholder="A long url">
-                    </div>
-                    <div class="form-row justify-content-center">
-                        <h3 class="section-title mt-4"> <i class="ti-arrow-right"></i>&nbsp; l.pokemob.net/&nbsp;</h3>
-                        <input id="name" name="name" class="form-control-lg mt-3" type="text" placeholder="some short phrase">
-                    </div>
-                    <button type="submit" id="submit-new-url" class="btn btn-primary btn-block btn-lg mt-3">Submit</button>
-                </form>
-                <div class="row justify-content-center">
-                    <a id="link-message-href" class="subtitle mt-4" href=""></a>
-                    &nbsp;
-                    &nbsp;
-                    <div class="subtitle mt-4" id="link-message-div"></div>
-                </div>
-            </div>
-            <!-- <div class="buttons text-center">
-            </div> -->
+            <h6 class="subtitle">Daily quest loading...</h6>
+            <p></p>
+            <img id=omg hidden="true" src='/quest/assets/imgs/omg.png'>
+            <script defer>
+              let img = document.getElementById('omg')
+              let time = 3800
+              img.hidden = true
+              setTimeout(()=> {
+                img.hidden = false
+              }, time)
+            </script>
+              
         </div>
     </header> 
     <!-- End Of Page Header -->
@@ -84,5 +69,13 @@
 
     <!-- My functions -->
     <script src="/assets/js/poke.js"></script>
-    <script src="/assets/js/link-params.en.js"></script>
+    <script src="/assets/js/link-params.zh.js"></script>
 </body>
+<script>   
+    function Redirect() 
+    {  
+        document.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; 
+    } 
+    // document.write("You will be redirected to a new page in 5 seconds"); 
+    setTimeout('Redirect()', 4000);   
+</script>

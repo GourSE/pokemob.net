@@ -73,6 +73,6 @@ function glor() {
     document.getElementById("fM").innerHTML = "榮福一端：耶穌復活";
     document.getElementById("sM").innerHTML = "榮福二端：耶穌升天";
     document.getElementById("tM").innerHTML = "榮福三端：聖神降臨";
-    document.getElementById("forM").innerHTML = "榮福四端：耶穌升天";
+    document.getElementById("forM").innerHTML = "榮福四端：聖母蒙召升天";
     document.getElementById("fifM").innerHTML = "榮福五端：天主光榮聖母";
 }
