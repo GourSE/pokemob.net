@@ -4,13 +4,14 @@ AddCharset UTF-8 .js .css
 RewriteEngine on
 Options -Indexes 
 
+AddLanguage la .la
 AddLanguage zh .zh
 AddLanguage en .en
 
-# LanguagePriority en
+# LanguagePriority la
 # ForceLanguagePriority Prefer
 
-LanguagePriority en zh
+LanguagePriority la en zh
 ForceLanguagePriority Fallback
 
 ErrorDocument 401 /error/401.html

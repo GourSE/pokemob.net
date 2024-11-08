@@ -33,6 +33,11 @@ window.onload = function() {
                 linkPostMessage(linkP, " 不存在");
                 resetEntries(linkP, shortP);
                 break;
+            case "3f":
+                // alert( linkP + " is not valed");
+                linkPostMessage("", "'?' 不允許存在於連結中");
+                resetEntries(linkP, shortP);
+                break;
         }
     } else if (okP == "true") {
         // alert("hell yeah " + fullNewUrl + " has been created");

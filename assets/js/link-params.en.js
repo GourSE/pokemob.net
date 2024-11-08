@@ -33,7 +33,12 @@ window.onload = function() {
                 linkPostMessage(linkP, " is not valid");
                 resetEntries(linkP, shortP);
                 break;
-        }
+            case "3f":
+                // alert( linkP + " is not valed");
+                linkPostMessage("", "'?' is forbidden in links");
+                resetEntries(linkP, shortP);
+                break;
+            }
     } else if (okP == "true") {
         // alert("hell yeah " + fullNewUrl + " has been created");
         linkPostMessage(fullNewUrl, " has been created");

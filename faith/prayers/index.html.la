@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="la">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Gloria in excelsis Deo">
+    <meta name="author" content="Pokemob">
+    <title>Orationes</title>
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="/assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Studio main styles -->
+	<link rel="stylesheet" href="/assets/css/creative-studio.css">
+
+    <!-- favico -->
+    <link rel="shortcut icon" href="/assets/imgs/favicon.ico" type="image/x-icon">
+
+</head>
+<body id="head">
+    <header class="header">
+        <div class="overlay">
+            <h1 class="title">Orationes</h1>
+            <div class="py-3"></div>
+            <h1 class="subtitle" id="pageSubtitle">Cor Iesu Sacratissimum / Miserere Nobis.</h1>
+            <div class="py-3"></div>
+        </div>
+        
+    </header>
+    
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-light" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#head">
+                <img src="/assets/imgs/logo.png" alt="Pokemob">
+                <a>Orationes</a>
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto"> 
+                    <li class="nav-item">
+                    <a href="/faith/rosary/" class="nav-link btn btn-outline-primary btn-sm ml-lg-3">Rosarium</a>
+                    </li>
+
+                </ul>                       
+            </div>
+        </div>
+    </nav>
+
+    <section class="has-bg-img bg-img-mary" id="soc">
+        <div class="container">
+            <!-- <p class="subtitle text-center h3">Title</p> -->
+            <div class="py-3"></div>
+            <dl class="row">
+                <dt class="col-sm-3 h3">Signum Crucis</dt>
+                <dd class="col-sm-9 h5">In nomine Patris, et Filii,<br>
+                    et Spiritus Sancti.<br>
+                    Amen.</dd>
+            </dl>
+
+             <div class="py-3"></div>
+
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Symbolum Apostolorum</dt>
+                <dd class="col-sm-9 h5">
+			Credo in Deum Patrem omnipotentem, <br>
+			Creatorem caeli et terrae. <br><br>
+                    Et in Iesum Christum,<br>
+                    Filium eius unicum, Dominum nostrum,<br>
+                    qui conceptus est de Spiritu Sancto,<br>
+                    natus ex Maria Virgine,<br>
+		    passus sub Pontio Pilato, <br>
+		    crucifixus, mortuus, et sepultus,<br>
+                    descendit ad infernos,<br>
+                    tertia die resurrexit a mortuis,<br>
+                    ascendit ad caelos,<br>
+                    sedet ad dexteram Dei Patris omnipotentis,<br>
+                    inde venturus est iudicare vivos et mortuos. <br><br>
+                    Credo in Spiritum Sanctum,<br>
+                    sanctam Ecclesiam catholicam,<br>
+                    sanctorum communionem,<br>
+                    remissionem peccatorum,<br>
+                    carnis resurrectionem,<br>
+                    vitam aeternam. <br>
+                    Amen
+                </dd>
+            </dl>
+            
+            <div class="py-3"></div>
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Symbolum Nicaenum</dt>
+                <dd class="col-sm-9 h5">
+                    Credo in unum Deum,<br>
+                    Patrem omnipotentem,<br>
+                    factorem caeli et terrae,<br>
+                    visibilium omnium et invisibilium,<br><br>
+
+                    Et in unum Dominum Iesum Christum,<br>
+                    Filium Dei unigenitum,<br>
+                    et ex Patre natum, ante omnia saecula,<br>
+                    Deum de Deo, lumen de Lumine,<br>
+                    Deum verum de Deo vero,<br>
+                    genitum, non factum, consubstantialem Patri:<br>
+                    per quem omnia facta sunt.<br>
+                    Qui propter nos homines et propter nostram salutem descendit de caelis.<br>
+                    Et incarnatus est de Spiritu Sancto<br>
+                    ex Maria Virgine, et homo factus est.<br>
+                    Crucifixus etiam pro nobis sub Pontio Pilato;<br>
+                    passus et sepultus est,<br>
+                    et resurrexit tertia die, secundem Scripturas,<br>
+                    et ascendit in caelum, sedet ad dexteram Patris.<br>
+                    Et iterum venturus est cum gloria,<br>
+                    iudicare vivos et mortuos,<br>
+                    cuius regni non erit finis.<br><br>
+
+                    Et in Spiritum Sanctum, Dominum et vivificantem:<br>
+                    qui ex Patre Filioque procedit.<br>
+                    Qui cum Patre et Filio simul adoratur et conglorificatur:<br>
+                    qui locutus est per prophetas.<br><br>
+
+                    Et unam, sanctam, catholicam et apostolicam Ecclesiam.<br>
+                    Confiteor unum baptisma in remissionem peccatorum.<br>
+                    Et exspecto resurrectionem mortuorum,<br>
+                    et vitam venturi saeculi. <br>
+                    Amen. 
+                </dd>
+            </dl>
+
+            <div class="py-3"></div>
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Pater Noster</dt>
+                <dd class="col-sm-9 h5">
+                    Pater Noster,<br>
+                    qui es in caelis,<br>
+                    sanctificetur nomen tuum.<br>
+                    Adveniat regnum tuum.<br>
+                    Fiat voluntas tua,<br>
+                    sicut in caelo et in terra.<br>
+                    Panem nostrum quotidianum da nobis hodie,<br>
+                    et dimitte nobis debita nostra<br>
+                    sicut et nos dimittimus debitoribus nostris.<br>
+                    Et ne nos inducas in tentationem,<br>
+                    sed libera nos a malo.<br>
+                    Amen.
+                </dd>
+            </dl>
+
+            <div class="py-3"></div>
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Doxologia Minor</dt>
+                <dd class="col-sm-9 h5">
+                    Gloria Patri, et Filio, et Spiritui Sancto. <br>
+                    Sicut erat in principio, <br>
+                    et nunc, et semper, <br>
+                    et in saecula saeculorum. <br>
+                    Amen.
+                </dd>
+            </dl>
+
+            <div class="py-3"></div>
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Oratio Fatima</dt>
+                <dd class="col-sm-9 h5">
+                    Domine Iesu, <br>
+                    dimitte nobis debita nostra, <br>
+                    salva nos ab igne inferni, <br>
+                    perduc in caelum omnes animas, <br>
+                    praesertim eas, quae misericordiae tuae maxime indigent.
+                </dd>
+            </dl>
+
+            <div class="py-3"></div>
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Gloria</dt>
+                <dd class="col-sm-9 h5">
+                    Gloria in excelsis Deo <br>
+                    et in terra pax hominibus bonae voluntatis.<br>
+                    Laudamus te,<br>
+                    benedicimus te,<br>
+                    adoramus te,<br>
+                    glorificamus te,<br>
+                    gratias agimus tibi propter magnam gloriam tuam,<br>
+                    Domine Deus, Rex caelestis,<br>
+                    Deus Pater omnipotens.<br><br>
+                    
+                    Domine Fili Unigenite, Iesu Christe,<br>
+                    Domine Deus, Agnus Dei, Filius Patris,<br>
+                    qui tollis peccata mundi,<br>
+                    miserere nobis;<br>
+                    qui tollis peccata mundi,<br>
+                    suscipe deprecationem nostram.<br>
+                    Qui sedes ad dexteram Patris,<br>
+                    miserere nobis.<br><br>
+                    
+                    Quoniam tu solus Sanctus,<br>
+                    tu solus Dominus,<br>
+                    tu solus Altissimus,<br>
+                    Iesu Christe,<br>
+                    cum Sancto Spiritu:<br>
+                    in gloria Dei Patris.<br>
+                    Amen.
+                </dd>
+            </dl>
+
+            <div class="py-3"></div>
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Ave Maria</dt>
+                <dd class="col-sm-9 h5">
+                    Ave Maria, gratia plena,<br>
+                    Dominus tecum.<br>
+                    Benedicta tu in mulieribus,<br>
+                    et benedictus fructus ventris tui, Iesus.<br>
+                    Sancta Maria, Mater Dei,<br>
+                    ora pro nobis peccatoribus,<br>
+                    nunc, et in hora mortis nostrae.<br>
+                    Amen.
+                </dd>
+            </dl>
+
+            <div class="py-3"></div>
+
+            <dl class="row">
+                <dt class="col-sm-3 h3">Salve Regina</dt>
+                <dd class="col-sm-9 h5">
+                    Salve, Regina, mater misericordiae;<br>
+                    vita, dulcedo et spes nostra, salve.<br>
+                    Ad te clamamus exsules filii Hevae.<br>
+                    Ad te suspiramus gementes et flentes<br>
+                    in hac lacrimarum valle. <br>
+                    Eia ergo, advocata nostra, <br>
+                    illos tuos misericordes oculos ad nos converte. <br>
+                    Et Iesum, benedictum fructum ventris tui, <br>
+                    nobis post hoc exsilium ostende. <br>
+                    O clemens, o pia, o dulcis Virgo Maria.<br><br>
+                    
+                    V. Ora pro nobis, sancta Dei Genitrix. <br>
+                    R. Ut digni efficamur promissionibus Christi.
+                </dd>
+            </dl>
+
+        </div>
+    </section>
+
+    <section class="has-bg-img py-0 bg-img-mary">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold"></h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="/" class="logo">
+                                <img src="/assets/imgs/logo.png" alt="Pokemob Logo">
+                                <h6>Pokemob</h6>
+                            </a>
+                            <p>
+
+                            </p>
+                            <p class="mt-3">
+                                Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a class="d-inline text-primary" href="/">Pokemob</a>
+                            </p>                   
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+
+
+
+
+    <!-- core  -->
+    <script src="/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="/assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Studio js -->
+    <script src="/assets/js/creative-studio.js"></script>
+
+    <!-- My functions -->
+    <script src="/assets/js/poke.js"></script>
+</body>
+</html>

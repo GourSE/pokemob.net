@@ -27,6 +27,9 @@ if ($link == "" or $name == "") {
 } elseif (str_contains($fileCat, "\n" . $name . " ")){
     header("Location: http://pokemob.net/link?ok=false&error=exist&link=" . $link ."&short=" . $name);
     die();
+} elseif (str_contains($link, "?")){
+    header("Location: http://pokemob.net/link?ok=false&error=3f&link=" . $link ."&short=" . $name);
+    die();
 } else {
     if (str_contains($link, "://")){
 
