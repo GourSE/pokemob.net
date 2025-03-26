@@ -73,6 +73,6 @@ function glor() {
     document.getElementById("fM").innerHTML = "Primum mysterium gloriosum: Resurrectio";
     document.getElementById("sM").innerHTML = "Secundum mysterium gloriosum: Ascensio";
     document.getElementById("tM").innerHTML = "Tertium mysterium gloriosum: Descensus Spiritus Sancti";
-    document.getElementById("forM").innerHTML = "Quartum mysterium gloriosum: Assumptionem Beatae Mariae Vírginis in caelum";
+    document.getElementById("forM").innerHTML = "Quartum mysterium gloriosum: Assumptionem Beatae Mariae Virginis in caelum";
     document.getElementById("fifM").innerHTML = "Quintum mysterium gloriosum: Coronationem Beatae Mariae Virginis in caelum";
 }

@@ -11921,6 +11921,12 @@ section.has-bg-img.bg-img-mary:after {
   background-position: center center;
 }
 
+section.has-bg-img.bg-img-altar:after {
+  background-image: url(../imgs/altar.jpg);
+  background-position: center center;
+}
+
+
 section .section-subtitle {
   font-size: calc(17px + (23 - 17) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
